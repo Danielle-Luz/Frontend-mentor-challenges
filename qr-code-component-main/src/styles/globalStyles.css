@@ -1,0 +1,19 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap");
+
+:root {
+    --black: black;
+    --grey-100:hsl(212, 45%, 89%);
+    --grey-200:hsl(220, 15%, 55%);
+    --primary-100:hsl(218, 44%, 22%);
+    --white: hsl(0, 0%, 100%); 
+
+    --radius-16: 16px;
+}
+
+body {
+  box-sizing: border-box;
+  font-family: "Outfit";
+  margin: 0;
+}
+
+
