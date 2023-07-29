@@ -3,20 +3,37 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
     <link
       rel="icon"
       type="image/png"
       sizes="32x32"
       href="./images/favicon-32x32.png"
     />
-    <link rel="stylesheet" href="styles.css" />
+
+    <link rel="stylesheet" href="./styles/globalStyles.css" />
+    <link rel="stylesheet" href="./styles/borders/index.css" />
+    <link rel="stylesheet" href="./styles/card/index.css" />
+    <link rel="stylesheet" href="./styles/colors/index.css" />
+    <link rel="stylesheet" href="./styles/texts/index.css" />
+    
     <title>Frontend Mentor | QR code component</title>
   </head>
   <body>
-    <div class="bg-blue-100">
-      <article class="bg-white-100">
-        
-      </article>
+    <div class="bg-grey-100">
+      <figure class="bg-white-0 radius-16 card-wrapper">
+        <div class="radius-16 card-img-wrapper">
+          <img src="./images/image-qr-code.png" />
+        </div>
+        <figcaption class="card-caption text-center">
+          <h2 class="color-black-0 font-size-18 weight-700">
+            Improve your front-end skills by building projects
+          </h2>
+          <p class="color-grey-200 font-size-15 weight-400">
+            Scan the QR code to visit Frontend Mentor and take your coding skills to nect level
+          </p>
+        </figcaption>
+      </figure>
     </div>
   </body>
 </html>
