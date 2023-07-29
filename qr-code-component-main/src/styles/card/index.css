@@ -1,0 +1,21 @@
+.card-wrapper {
+    border-radius: var(--radius-16);
+    box-shadow: 0 0 10px 20px var(--grey-100);
+    max-width: 375px;
+    padding: 15px 15px 40px;
+    width: 100%;
+}
+
+.card-img-wrapper {
+    border-radius: var(--radius-16);
+    overflow: hidden;
+}
+
+.card-img-wrapper img {
+    width: 100%;
+}
+
+.card-caption {
+    width: 90%;
+    margin: 0 auto;
+}
