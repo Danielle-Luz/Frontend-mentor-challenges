@@ -1,0 +1,23 @@
+:root {
+  --color-primary-1: hsl(0, 100%, 67%);
+  --color-primary-2: hsl(39, 100%, 56%);
+  --color-primary-3: hsl(166, 100%, 37%);
+  --color-primary-4: hsl(234, 85%, 45%);
+
+  --gradient-violet-1: hsl(252, 100%, 67%);
+  --gradient-violet-2: hsla(256, 72%, 46%, 1);
+  --gradient-violet-3: hsl(241, 81%, 54%);
+  --gradient-violet-4: hsla(241, 72%, 46%, 0);
+
+  --color-grey-1: hsl(224, 30%, 27%);
+  --color-grey-2: hsl(241, 100%, 89%);
+  --color-grey-2: hsl(221, 100%, 96%);
+  --color-grey-2: hsl(0, 0%, 100%);
+
+  --font-size-1: 18px;
+  --font-family-1: 'Outfit', sans-serif;
+
+  --weight-1: 800;
+  --weight-2: 700;
+  --weight-3: 500;
+}
