@@ -1,0 +1,14 @@
+.bg-grey-2 {
+  background-color: var(--color-grey-2);
+}
+
+.bg-grey-3 {
+  background-color: var(--color-grey-3);
+}
+
+.bg-gradient-blue-3 {
+  background-image: linear-gradient(
+    var(--gradient-violet-1),
+    var(--gradient-violet-3)
+  );
+}
