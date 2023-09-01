@@ -1,5 +1,11 @@
-.padding-around-medium {
-  padding: 40px;
+.padding-vertical-large {
+  padding-bottom: 100px;
+  padding-top: 100px;
+}
+
+.padding-horizontal-medium {
+  padding-left: 50px;
+  padding-right: 50px;
 }
 
 .gap-5 {
