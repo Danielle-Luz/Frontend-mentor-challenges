@@ -1,0 +1,19 @@
+.hability {
+  padding: 5px 20px;
+}
+
+.reaction {
+  background-color: var(--color-primary-1-low-opacity);
+}
+
+.reaction h4::before {
+  content: url("../../../assets/images/icon-reaction.svg");
+}
+
+.reaction h4 {
+  color: var(--color-primary-1);
+}
+
+.reaction p {
+  color: var(--color-grey-1);
+} 

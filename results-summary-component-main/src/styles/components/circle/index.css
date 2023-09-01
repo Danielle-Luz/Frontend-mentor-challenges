@@ -13,14 +13,14 @@
 }
 
 .circle .actual-pontuation {
-  color: var(--color-grey-2);
+  color: var(--color-grey-4);
   font-weight: 800;
   font-size: 60px;
   margin: 0;
 }
 
 .circle .total-punctuation {
-  color: var(--color-grey-2);
+  color: var(--color-grey-4);
   font-weight: 300;
   margin: 0;
 }

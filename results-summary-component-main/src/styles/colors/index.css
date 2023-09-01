@@ -1,3 +1,7 @@
+.bg-grey-1 {
+  background-color: var(--color-grey-1);
+}
+
 .bg-grey-2 {
   background-color: var(--color-grey-2);
 }
@@ -6,9 +10,21 @@
   background-color: var(--color-grey-3);
 }
 
+.bg-grey-4 {
+  background-color: var(--color-grey-4);
+}
+
 .bg-gradient-blue-3 {
   background-image: linear-gradient(
     var(--gradient-violet-1),
     var(--gradient-violet-3)
   );
+}
+
+.color-grey-1 {
+  color: var(--color-grey-1);
+}
+
+.color-grey-4 {
+  color: var(--color-grey-4);
 }

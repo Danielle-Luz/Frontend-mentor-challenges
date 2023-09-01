@@ -1,7 +1,12 @@
 @import url("https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@300;400;500;700;800&display=swap");
 
+* {
+  box-sizing: border-box;
+}
+
 :root {
   --color-primary-1: hsl(0, 100%, 67%);
+  --color-primary-1-low-opacity: hsla(0, 100%, 67%, 0.101);
   --color-primary-2: hsl(39, 100%, 56%);
   --color-primary-3: hsl(166, 100%, 37%);
   --color-primary-4: hsl(234, 85%, 45%);
@@ -13,8 +18,8 @@
 
   --color-grey-1: hsl(224, 30%, 27%);
   --color-grey-2: hsl(241, 100%, 89%);
-  --color-grey-2: hsl(221, 100%, 96%);
-  --color-grey-2: hsl(0, 0%, 100%);
+  --color-grey-3: hsl(221, 100%, 96%);
+  --color-grey-4: hsl(0, 0%, 100%);
 
   --font-size-1: 18px;
 
@@ -27,4 +32,13 @@
 
 body {
   padding: 20px;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  margin: 0;
 }
