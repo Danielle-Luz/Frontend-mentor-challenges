@@ -2,18 +2,50 @@
   padding: 5px 20px;
 }
 
-.reaction {
+.Reaction {
   background-color: var(--color-primary-1-low-opacity);
 }
 
-.reaction h4::before {
-  content: url("../../../assets/images/icon-reaction.svg");
+.Reaction h4::before {
+  content: url("../../../assets/images/icon-Reaction.svg");
 }
 
-.reaction h4 {
+.Reaction h4 {
   color: var(--color-primary-1);
 }
 
-.reaction p {
-  color: var(--color-grey-1);
-} 
+.Memory {
+  background-color: var(--color-primary-2-low-opacity);
+}
+
+.Memory h4::before {
+  content: url("../../../assets/images/icon-Memory.svg");
+}
+
+.Memory h4 {
+  color: var(--color-primary-2);
+}
+
+.Verbal {
+  background-color: var(--color-primary-3-low-opacity);
+}
+
+.Verbal h4::before {
+  content: url("../../../assets/images/icon-Verbal.svg");
+}
+
+.Verbal h4 {
+  color: var(--color-primary-3);
+}
+
+.Visual {
+  background-color: var(--color-primary-4-low-opacity);
+}
+
+.Visual h4::before {
+  content: url("../../../assets/images/icon-Visual.svg");
+}
+
+.Visual h4 {
+  color: var(--color-primary-4);
+}

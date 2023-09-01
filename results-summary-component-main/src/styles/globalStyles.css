@@ -6,10 +6,13 @@
 
 :root {
   --color-primary-1: hsl(0, 100%, 67%);
-  --color-primary-1-low-opacity: hsla(0, 100%, 67%, 0.101);
   --color-primary-2: hsl(39, 100%, 56%);
   --color-primary-3: hsl(166, 100%, 37%);
   --color-primary-4: hsl(234, 85%, 45%);
+  --color-primary-1-low-opacity: hsla(0, 100%, 67%, 0.100);
+  --color-primary-2-low-opacity: hsl(39, 100%, 56%, 0.100);
+  --color-primary-3-low-opacity: hsl(166, 100%, 37%, 0.100);
+  --color-primary-4-low-opacity: hsl(234, 85%, 45%, 0.100);
 
   --gradient-violet-1: hsl(252, 100%, 67%);
   --gradient-violet-2: hsla(256, 72%, 46%, 1);
