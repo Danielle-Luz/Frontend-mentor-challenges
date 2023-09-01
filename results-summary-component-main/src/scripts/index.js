@@ -1,8 +1,15 @@
+import { habilities } from "../data";
+
 function createAllHabilities() {
   const habilitiesList = getHabilitiesList();
+
+  habilities.forEach((hability) => {
+    const habilityElement = createHabilityElement(hability);
+    habilitiesList.appendChild(habilityElement);
+  });
 }
 
-function createHability(hability) {
+function createHabilityElement(hability) {
   const li = document.createElement("li");
   const div = document.createElement("div");
   const h4 = document.createElement("h4");
@@ -27,3 +34,5 @@ function getHabilitiesList() {
 
   return habilitiesList;
 }
+
+createAllHabilities();
