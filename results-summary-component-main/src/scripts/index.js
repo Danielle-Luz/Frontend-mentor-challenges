@@ -1,9 +1,12 @@
+function createAllHabilities() {
+  const habilitiesList = getHabilitiesList();
+}
+
 function createHability(hability) {
   const li = document.createElement("li");
   const div = document.createElement("div");
   const h4 = document.createElement("h4");
   const p = document.createElement("p");
-  const span = document.createElement("span");
 
   li.classList = `align-center color-grey-4 flex hability space-between radius-1 ${hability.category}`;
   h4.classList = "flex gap-10";
