@@ -1,4 +1,4 @@
-import { habilities } from "./data.js";
+import { habilities } from "data.js";
 
 function createAllHabilities() {
   const habilitiesList = getHabilitiesList();
