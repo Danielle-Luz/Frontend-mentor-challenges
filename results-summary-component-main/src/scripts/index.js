@@ -1,8 +1,8 @@
-import { habilities } from "data.js";
+import { habilities } from "./data.js";
 
 function createAllHabilities() {
   const habilitiesList = getHabilitiesList();
-
+  
   habilities.forEach((hability) => {
     const habilityElement = createHabilityElement(hability);
     habilitiesList.appendChild(habilityElement);
